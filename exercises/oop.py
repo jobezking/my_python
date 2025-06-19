@@ -33,3 +33,7 @@ class Apple:
 
 honeycrisp = Apple("red", "sweet")
 print(honeycrisp)
+
+jonagold = Apple("red", "sweet")
+print(jonagold.color)
+print(jonagold)
