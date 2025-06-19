@@ -1,4 +1,4 @@
-#Creating an instance of a class
+#Creating an instance of a class.
 #When writing a Python class, you define a method called __init__ to be your constructor.
 # prints "red"
 class Apple:
