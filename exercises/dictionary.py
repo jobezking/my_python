@@ -37,3 +37,13 @@ phone_numbers['boss'] = 4445551526 #modify
 phone_numbers['church'] = 4442221111 #add
 del phone_numbers['boss'] #delete
 language_dictionary.popitem()   #deletes last item
+
+def email_list(domains):
+    emails = []
+    for domain,users in domains.items():
+        for user in users:
+            emails.append(user + '@' + domain)
+    return(emails)
+
+print(email_list({"gmail.com": ["clark.kent", "diana.prince", "peter.parker"], "yahoo.com": ["barbara.gordon", "jean.grey"], "hotmail.com": ["bruce.wayne"]}))
+
