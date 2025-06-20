@@ -10,6 +10,7 @@ numbers.insert(-1,-1) #location, value
 print(numbers)
 del numbers[2] # deletes item from list
 del numbers # deletes entire list
+numbers.remove(7) #removes the first instance of 7
 
 new_list = []
 
