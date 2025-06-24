@@ -12,8 +12,8 @@ with open("novel.txt", "w") as file:
     file.write("It was a dark and stormy night")
 
 with open("sample_data/declaration.txt", "rt") as textfile:
- for line in textfile:
-   print(line)
+    for line in textfile:
+        print(line)
 
 f = open("sample_data/declaration.txt", "w")
 
